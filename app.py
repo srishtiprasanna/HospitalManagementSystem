@@ -775,7 +775,7 @@ with st.sidebar:
 
                 else:
                     st.warning(
-                        "To Add Operation!! Of Course You have To Add Doctors and Patients and Nurses To The Hospital!!")
+                        "To Add Operation Of Course You have To Add Doctors and Patients and Nurses To The Hospital!!")
             elif operation_option == "All Operations":
                 st.text(
                     f'All Patients in "{hospital.name} Hospital" 🏥'.title())
